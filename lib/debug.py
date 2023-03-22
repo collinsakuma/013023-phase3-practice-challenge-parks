@@ -16,8 +16,8 @@ if __name__ == '__main__':
     
     p1 = NationalPark("Yosemmette")
     vis = Visitor('Sheryl')
-    t_1 = Trip(vis, p1, "May 5th", "May 9th")
-    t_2 = Trip(vis, p1, "June 20th", "July 4th")
-    t_3 = Trip(vis, p1, "January 5th","January 20th")
+    t1 = Trip(vis, p1, "May 5th", "May 9th")
+    t2 = Trip(vis, p1, "June 20th", "July 4th")
+    t3 = Trip(vis, p1, "January 5th","January 20th")
     
     ipdb.set_trace()

@@ -82,7 +82,7 @@ class TestNationalParks:
         t_1 = Trip(vis, p1, "May 5th", "May 9th")
         t_2 = Trip(vis, p1, "June 20th", "July 4th")
         t_3 = Trip(vis, p1, "January 5th","January 20th")
-        assert (len(p1.total_visits()) == 3)
+        assert ((p1.total_visits()) == 3)
     
     def test_best_visitor(self):
         '''Get the visitor that visited the park the most'''
